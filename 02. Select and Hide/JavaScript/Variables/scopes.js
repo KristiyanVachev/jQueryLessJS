@@ -7,7 +7,7 @@ function ocean() {
 }
 
 function jungle() {
-    let koala = 'I poop.';
+    let koala = 'I newElement.';
 
     console.log(koala); //Koala is here.
     console.log(dolphin); //Dolphin is everywhere.

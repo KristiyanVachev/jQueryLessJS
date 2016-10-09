@@ -3,7 +3,7 @@ var wrapper = $('#wrapper');
 
 //Create element with picture and append
 var jessicaPicture = $('<img/>');
-jessicaPicture.attr('src', 'jessica.png');
+jessicaPicture.attr('src', 'images/jessica.png');
 jessicaPicture.addClass('jessicaHyde');
 
 wrapper.append(jessicaPicture);

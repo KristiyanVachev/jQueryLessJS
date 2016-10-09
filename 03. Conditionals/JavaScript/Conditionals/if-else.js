@@ -2,9 +2,9 @@
     Conditionals are used to do something only if a condtion is met.
  */
 
-var koala = 'poop';
+var koala = 'newElement';
 
-if(koala === 'poop'){
+if(koala === 'newElement'){
     console.log("Poopy pants!");
 }
 else if(koala === 'Dolphin'){
