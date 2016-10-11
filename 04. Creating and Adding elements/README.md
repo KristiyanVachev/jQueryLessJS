@@ -19,7 +19,7 @@ $("#wrapper").append(newElement);
 
 Adding more HTML into the selected element.
 ```js
-newElement.html("<p>Text<p/>);
+newElement.html("<p>Text<p/>");
 ```
 
 Adding only text to the selected element.
