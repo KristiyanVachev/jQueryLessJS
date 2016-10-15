@@ -1,0 +1,15 @@
+#imagePreview{
+    border: 1px solid black;
+    width: 800px;
+    padding-left: 25px;
+}
+
+#imagePreview img{
+    width: 150px;
+}
+
+#imageBox{
+    border: 1px solid black;
+    width: 800px;
+    height: 400px;
+}
