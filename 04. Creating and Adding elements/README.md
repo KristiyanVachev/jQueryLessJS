@@ -17,27 +17,31 @@ $("#wrapper").append(newElement);
 
 ## Adding content, styles and attributes
 
-Adding more HTML into the selected element.
+- .html()
 ```js
 newElement.html("<p>Text<p/>");
 ```
+Rewrites the content of the selected element.
 
-Adding only text to the selected element.
+- .text()
 ```js
 newElement.text("text");
 ```
+Rewrites the content of the selected element, escaping the tags.
 
-Adding CSS
+- .css("property", "value")
 ```js
 newElement.css("color", "green");
 ```
+Sets the value of the CSS property to the element.
 
-Adding attributes
+- .attr("attribute", "value";
 ```js
 var newImg = $("<img />");
 newElement.attr("src", "picture.png");
 ```
-- Works only if the selected element normally has the attribute you are trying to add.
+Sets the value of the attribute to the element.
+Works only if the selected element normally has the attribute you are trying to add.
 
 ##Adding and removing a class.
 ```js
